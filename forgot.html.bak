@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>forgot</title>
+  <link rel="stylesheet" type="text/css" href="abc.css">
+
+ </head>
+ <body>
+  <div id="div1">
+<div id="div2"></div><br>
+<div id="div3"></div>
+<h1><div style="letter-spacing:12px;">Go Alert India Private limited</div></h1>
+  </div><br><br><br>
+
+ <center><table>
+  <tr>
+  <td>
+  user name:</td>
+  <td><input type="text" value="abc"></td></tr>
+ <tr> <td>enter new password:</td>
+  <td><input type="password" value="abc"></td></tr>
+<tr><td><input type="submit" value="change"></td></center>
+ </body>
+</html>

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>sign up!!</title>
+    <link rel="stylesheet" type="text/css" href="abc.css">
+
+ </head>
+ <body>
+   <div id="div1">
+<div id="div2"></div><br>
+<div id="div3"></div>
+<h1><div style="letter-spacing:12px;">Go Alert India Private limited</div></h1>
+  </div><br><br>
+<center>
+ <table>
+ <tr>
+	<td>USER NAME:</td>
+	<td><input type="text"></td>
+ </tr>
+ <tr>
+	<td>PASSWORD:</td>
+	<td><input type="password"></td>
+ </tr>
+ <tr>
+	<td>CONFIRM PASSWORD:</td>
+	<td><input type="password"></td>
+ </tr>
+ <tr>
+	<td>BIRTH DATE:</td>
+	<td><input type="date"></td>
+ </tr>
+ <tr>
+	<td>ADDRESS:</td>
+	<td><textarea></textarea></td>
+ </tr>
+ <tr>
+	<td>CONTACT NO</td>
+	<td><input type="tel"maxlength="10"></td>
+ </tr>
+ <tr>
+	<td>UPLOAD PIC</td>
+	<td><input type="file"></td>
+ </tr>
+ <tr>
+	<td><input type="submit"></td>
+	<td></td>
+ </tr>
+
+ </table>
+</center>
+ </body>
+</html>

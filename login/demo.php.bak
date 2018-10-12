@@ -1,0 +1,27 @@
+<?php
+define('DB_NAME','register');
+define('DB_USERNAME','username');
+define('DB_PASSWORD','password');
+define('DB_HOST','localhost');
+
+
+$link = mysql_connect ( DB_NAME,DB_USERNAME,DB_PASSWORD,DB_HOST);
+if(!$link)
+{
+	die('cont connect'.mysql_error());
+}
+$db_selected=mysql_select_db(DB_NAME,$link);
+if(!$db_selected)
+{
+	die('con use'.DB_NAME.':'.mysql_error());
+}
+$value=$_POST['username'];
+$value1=$_POST['password'];
+$sql="INSERT INTO `demo`(`id`, `username`, `password`) VALUES ([value-1],[value-2],[value-3])";
+
+if(!mysql_query($sql))
+{
+	die('error:'.mysql_error());
+}
+mysql_close();
+?>
